@@ -1,0 +1,27 @@
+.random-planet {
+    display: grid;
+    grid-template-columns: 1fr 12fr;
+    margin-top: 2rem;
+    padding: 1.7rem;
+    min-height: 12rem;
+}
+
+.random-planet img {
+    width: 240px;
+    height: 240px;
+    border-radius: 10px;
+    margin-right: 2rem;
+}
+
+.random-planet .info p {
+    border-top: 1px solid grey;
+    margin: 0 0 0 1.5rem;
+    font-size: 20px;
+    padding: 1rem 0;
+}
+
+spinner {
+    position: absolute;
+    top: 20%;
+    left: 47%;
+}
