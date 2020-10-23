@@ -1,27 +1,30 @@
 .random-planet {
-    display: grid;
-    grid-template-columns: 1fr 12fr;
-    margin-top: 2rem;
-    padding: 1.7rem;
-    min-height: 12rem;
+    display: flex;
+    padding: 1rem;
+    border: 1px solid #444;
+    margin-bottom: 2rem;
+    justify-content: center;
 }
 
-.random-planet img {
-    width: 240px;
-    height: 240px;
+.random-planet .planet-image {
+    width: 30%;
+    height: 30%;
+    max-width: 200px;
+    max-height: 200px;
     border-radius: 10px;
-    margin-right: 2rem;
+    margin-right: 0.5rem;
 }
 
-.random-planet .info p {
-    border-top: 1px solid grey;
-    margin: 0 0 0 1.5rem;
-    font-size: 20px;
-    padding: 1rem 0;
+.random-planet .list-group {
+    margin: 1rem 0 0 1rem;
+    width: 100%
 }
 
-spinner {
-    position: absolute;
-    top: 20%;
-    left: 47%;
+.random-planet .list-group-item {
+    padding: .25rem;
+    width: 100%
+}
+
+.random-planet .list-group-item .term {
+    margin-right: .5rem;
 }
